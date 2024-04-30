@@ -1,0 +1,113 @@
+.header3
+{background-color:white;
+height: 51px;
+z-index: 0;
+display:flex;
+flex-direction:row;
+padding: 0px 40px 0px 40px;} 
+.left
+{position: relative;
+flex: 1;}
+.adi
+{height: 40px;
+position:absolute;
+bottom: 22px;
+left: -5px;}
+.mid
+{background-color:white;
+align-self:end;
+height: 47px;
+display: flex;
+flex-direction:row ;
+align-items:center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+letter-spacing:3px;
+margin: 0px 10px 0px 10px;
+justify-content: center;
+flex: 2;
+z-index: 3;}
+.men,
+.women,
+.kid
+{font-weight:bold;
+padding: 0px 10px 0px 10px;}
+.sale,
+.life
+{padding: 0px 10px 0px 10px;}
+.right
+{justify-content: center;
+margin: 0px 10px 0px 10px;
+align-items: center;
+display: flex;
+flex-direction:row;
+height: 44px;
+align-self: end;
+flex: 1;
+}
+.searchbar
+{position: relative;}
+.search
+{padding: 0px 35px 0px 10px;
+height: 30px;
+color: black;
+font-weight: 300;
+background-color: rgb(236, 239, 241);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+border: none;
+}
+.i
+{height: 30px;
+border: none;
+color: black;
+position: absolute;
+right: 0px;
+background-color: rgb(236, 239, 241);
+cursor: pointer;}
+.people
+{position: relative;
+padding-left: 15px;}
+.i2
+{height: 20px;
+padding-left: 5px;
+cursor: pointer;}
+.one
+{
+top: -15px;
+border-radius: 50px; ;
+background-color: #ffd200;
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+height: 20px;
+width: 20px;
+right:-10px;
+display: flex;
+justify-content: center;}
+.love
+{height: 20px;
+padding-left: 30px;
+cursor: pointer;}
+.cart
+{padding-left: 30px;
+cursor: pointer;
+position: relative;
+}
+.p7
+{position: absolute;
+z-index: 10;
+white-space: nowrap;
+background-color: white;
+color: black;
+padding: 20px 60px 20px 60px;
+right: 10px;
+top: 35px;
+font-size: 16px;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+pointer-events: none;
+opacity: 0;}
+.cart:hover .p7
+{opacity: 1;}

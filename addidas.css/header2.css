@@ -1,0 +1,16 @@
+.header2
+{height: 30px;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;}
+.us
+{padding-right: 70px;}
+.span
+{padding: 10px;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;}
+.flag
+{height: 10px;
+padding-left: 10px;}
